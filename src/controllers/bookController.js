@@ -1,5 +1,4 @@
 const bookModel = require("../models/booksModel");
-const reviewModel = require("../models/reviewModel");
 const v = require("../validators/validation");
 
 //______________________________________________________createBook____________________________________________________
@@ -156,12 +155,6 @@ const getBookById = async function (req, res) {
             return res
                 .status(404)
                 .send({ status: false, message: "This book is already deleted" });
-
-        let reviewsData = await reviewModel.find({
-            bookId: bookData._id,
-            isDeleted: false,
-        });
-        bookData.reviewsData = reviewsData;
 
         return res
             .status(200)
