@@ -2,7 +2,6 @@ const express = require('express')
 const router = express.Router()
 const userController = require('../controllers/authorController')
 const bookController = require('../controllers/bookController')
-const reviewController = require('../controllers/reviewController')
 const mid = require('../middleware/mid')
 const { uploadFile } = require('../../helper/aws')
 
