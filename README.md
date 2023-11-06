@@ -16,6 +16,13 @@ and install the dependencies
 ```
 npm install
 ```
+  
+### Postman Collection
+link:https://www.postman.com/cloudy-astronaut-688173/workspace/what-s-app-api-s/collection/22027162-0632b3cd-5359-4eab-9519-92baa93fc2d5?action=share&creator=22027162&active-environment=22027162-0d5362a5-7073-45c3-9064-fd9a28223fb6
+
+
+### Deploy Link
+link: https://faithful-outerwear-eel.cyclic.app/books
 
 ### Prerequisites
 
